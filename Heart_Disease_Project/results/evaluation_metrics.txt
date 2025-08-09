@@ -1,0 +1,23 @@
+🔍 Model Comparison:
+
+                     Accuracy  Precision    Recall  F1 Score   ROC AUC
+Logistic Regression   0.867     0.808      0.875    0.840     0.946
+Decision Tree         0.750     0.737      0.583    0.651     0.722
+Random Forest         0.800     0.800      0.667    0.727     0.888
+SVM                   0.850     0.895      0.708    0.791     0.876
+
+------------------------------
+
+🧮 Adjusted Rand Index (KMeans vs True Labels): 0.3292
+
+------------------------------
+
+Grid SearchCV (Random Forest):
+Best parameters: {'max_depth': 5, 'min_samples_leaf': 2, 'min_samples_split': 2, 'n_estimators': 150}
+Best accuracy on validation set: 0.815
+
+Randomized SearchCV (Random Forest):
+Best parameters: {'max_depth': None, 'min_samples_leaf': 3, 'min_samples_split': 3, 'n_estimators': 181}
+Best accuracy on validation set: 0.806
+
+✅ Model saved as final_heart_model.pkl

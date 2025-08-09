@@ -1,0 +1,6 @@
+No Streamlit app or deployment was used in this project.
+
+# Notes:
+- All analysis and model training were performed in Jupyter Notebooks.
+- If you wish to deploy a model or build a UI, consider using Streamlit, Flask, or FastAPI.
+- For quick deployment with ngrok or cloud services, see official docs for those tools.
